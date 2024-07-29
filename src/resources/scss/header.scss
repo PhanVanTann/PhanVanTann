@@ -25,7 +25,17 @@ a.item-logo{
     font-family: 'Arial', sans-serif; 
 }
 
+.form-inline .form-control {
+    width: 500px;
+    border-radius: 50px;
+}
 
+.form-inline .btn {
+    border-radius: 50px;
+    margin-left: -45px; /* Để nút search nằm đè lên phần cuối của input */
+    background-color: #fff;
+    color: #2C6E49;
+}
 
 
 
